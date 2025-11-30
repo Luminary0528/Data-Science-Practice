@@ -5,7 +5,7 @@ This repository contains my beginner-level Data Science practice using Python, N
 It is part of my learning journey through the FreeCodeCamp 17-hour Data Science course.
 
 
-## 📌 Project Summary
+##  Summary
 
 In this notebook, I’ve worked with a basic dataset (student marks) to practice data handling and analysis.  
 I focused on:
@@ -44,10 +44,7 @@ This is an early-stage project, but it reflects my interest and commitment to bu
 - Worked on sorting values and sorting indexes.
 - Understood DataFrame copying vs referencing.
 - Practiced handling data with Pandas methods.
-
-- Add data visualization using Matplotlib/Seaborn
-- Work on more structured real-world datasets
-- Try building a mini data project with proper questions & insights
+- Work on more structured real-world datasets.
 
 
 ## 👩‍💻 About Me
