@@ -1,0 +1,137 @@
+📊 Exploratory Data Analysis (EDA)
+
+What is Exploratory Data Analysis?
+Exploratory Data Analysis (EDA) is the process of analyzing and visualizing data to understand its main characteristics, identify patterns, detect anomalies and prepare data for modeling.
+
+Why is EDA Important?
+
+EDA helps to:
+
+Understand dataset structure, features and data types
+Identify patterns and relationships between variables
+Detect missing values, errors and outliers
+Select important features for modeling
+Choose suitable models and preprocessing techniques
+Improve model accuracy and reliability
+
+Types of Exploratory Data Analysis
+1. Univariate Analysis
+
+Analyzes one variable at a time.
+
+Techniques:
+Histograms → data distribution
+Box plots → outlier detection
+Bar charts → categorical data
+Summary statistics → mean, median, mode, variance, std deviation
+
+Purpose:
+
+Understand distribution, spread and outliers
+
+2. Bivariate Analysis
+
+Analyzes two variables together to understand relationships.
+
+Techniques:
+
+Scatter plots → relationship between continuous variables
+Correlation (Pearson) → strength of linear relationship
+Covariance → direction of joint variation
+Cross-tabulation → relationship between categorical variables
+Line graphs → trends over time
+
+Purpose:
+
+Identify correlation, dependency or association
+
+3. Multivariate Analysis
+
+Analyzes more than two variables simultaneously.
+
+Techniques:
+
+Pair plots → multiple variable relationships
+PCA (Principal Component Analysis) → dimensionality reduction
+Spatial analysis → geographic data visualization
+Time series analysis → trends, seasonality, autocorrelation
+
+Purpose:
+
+Understand complex interactions between variables
+
+##Steps for Performing Exploratory Data Analysis
+Step 1: Understand the Problem & Data
+
+Define business or research objective
+Identify variables and their meaning
+Understand data types (numerical, categorical)
+Note domain constraints and assumptions
+
+Step 2: Import & Inspect Data
+
+Load dataset safely
+Check rows and columns
+Identify missing values
+Verify data types
+Detect errors and inconsistencies
+
+Step 3: Handle Missing Data
+
+Identify missing data type (MCAR, MAR, MNAR)
+Decide to remove or impute
+
+Use methods like:
+
+Mean/Median imputation
+Regression
+KNN or ML-based imputation
+Evaluate impact on results
+
+Step 4: Explore Data Characteristics
+
+Calculate summary statistics
+Analyze distribution and spread
+Check skewness and kurtosis
+Detect anomalies and irregular patterns
+
+Step 5: Data Transformation
+
+Scaling (Min-Max, Standardization)
+Encoding categorical variables
+Log / square root transformations
+Feature engineering
+Aggregation or grouping
+
+Step 6: Visualize Data Relationships
+
+Categorical → bar charts, pie charts
+Numerical → histograms, box plots, density plots
+Relationships → scatter plots, heatmaps, correlations
+
+Step 7: Handle Outliers
+
+Detect using:
+
+IQR
+Z-score
+Domain rules
+
+Treat by:
+
+Removing
+Capping
+Transforming
+Decide based on context
+
+Step 8: Communicate Insights
+
+Summarize objectives and findings
+Use clear visuals
+Highlight patterns and anomalies
+Mention limitations
+Suggest next steps
+
+🧠 Key Takeaway
+
+EDA is a critical foundation step that improves data quality, guides feature selection and ensures better modeling decisions.
